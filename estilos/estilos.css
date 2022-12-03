@@ -1,0 +1,155 @@
+/* Media 400, 576, 768, 800, 992, 1366 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Marchila;
+    src: url(../assets/fuentes/Marchila.otf);
+}
+
+/* Menu Hamburgesa */
+#tituloPrincipal {
+    font-family: Marchila;
+    font-size: 40px;
+}
+#titulosDeComida {
+    font-family: Marchila;
+    font-size: 40px;
+}
+
+/*Logo*/
+.logo {
+    width: 72px;
+}
+#logo-menu {
+    margin-top: 30%;
+    text-align: center;
+}
+#logo-toast {
+    width: 50px;
+}
+
+/* Banner */
+.bannersPrincipal {
+    margin-top: 10%;
+}
+
+/* Hisotira */
+#historia h1 {
+    font-family: Marchila;
+    font-size: 30px;
+}
+
+#historia p {
+    width: 100%;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+/* Descargar Menu */
+#descargaMenu {
+    padding: 2% 30% 2% 30%;
+}
+
+/* Mapa */
+iframe {
+    width: 90%;
+}
+
+/*Footer*/
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+.box h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.box p {
+    color: #efefef;
+    margin-bottom: 2px;
+}
+.icon {
+    width: 50px;
+
+}
+.box a {
+    text-decoration: none;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+} 
+
+@media only screen and (min-width: 576px) {
+    .bannersPrincipal {
+        margin-top: 5%;
+       } 
+}
+
+@media only screen and (min-width: 768px) {
+    .bannersPrincipal {
+        margin-top: 5%;
+       } 
+    /* Carrusel y Banner */ 
+    .textoCarrusel h5 {
+        font-family: Marchila;
+        font-size: 25px;
+    }
+    .textoCarrusel p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .bannersPrincipal {
+        margin-top: 5%;
+       } 
+    #tituloDescarga {
+        font-family: Marchila;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+   .bannersPrincipal {
+    margin-top: 4%;
+   }
+    /* Carrusel y Banner */ 
+    .textoCarrusel h5 {
+        font-family: Marchila;
+        font-size: 35px;
+    }
+    .textoCarrusel p {
+        font-size: 23px;
+    }
+    #tituloDescarga {
+        font-family: Marchila;
+        font-size: 28px;
+    }
+}
